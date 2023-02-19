@@ -76,11 +76,70 @@ console.log(bigInt);
 console.log("Tanpa menggunakan BigInt ('n' di belakang angka): ");
 const nonBigInt = 29837529847652948659485648456;
 console.log(nonBigInt);
-//masih ada kelanjutannya dari dikoding, jangan lupa dibuat hehehe
+
+// penggunaan BigInt pada nilai yang kecil
+console.log("\n Penggunaan BigInt pada nilai kecil:");
+
+const smallBigInt = 2n;
+console.log(smallBigInt);
+
+// Contoh operasi matematika dengan BitInt
+console.log("\n Contoh operasi matematika dengan BigInt: ");
+
+const bigIntPertama = 7n;
+const bigIntKedua = 2n;
+console.log("bigIntPertama bernilai:");
+console.log(bigIntPertama);
+console.log("bigIntKedua bernilai: ");
+console.log(bigIntKedua);
+
+console.log("Hasil tambah: ")
+console.log(bigIntPertama + bigIntKedua);
+console.log("Hasil kurang: ")
+console.log(bigIntPertama - bigIntKedua);
+console.log("Hasil kali: ")
+console.log(bigIntPertama * bigIntKedua);
+console.log("Hasil bagi: ")
+console.log(bigIntPertama / bigIntKedua);
+console.log("Hasil modulo: ")
+console.log(bigIntPertama % bigIntKedua);
+console.log("Hasil pangkat: ")
+console.log(bigIntPertama ** bigIntKedua);
 
 console.log("===========================================================");
 
 console.log("\n\n========================Tipe Data String===================================");
+console.log("String merupakan tipe data berisi teks, dibuat dengan tanda ('   ') atau petik dua ");
+
+console.log("Contohnya: ");
+console.log("variabel Nama berisi = 'Gilang'");
+let Nama = "Gilang";
+console.log("Hasilnya: ");
+console.log(Nama);
+console.log("tipe datanya: " + typeof(Nama));
+
+// Penggunaan tanda petik bergantian
+console.log("\n Tanda petik juga bisa digunakan bergantian, berikut contohnya:");
+const kataKata = "Gilang berkata, 'aku akan punya pekerjaan yang santai dan WFA'";
+const pernyataan = 'Yosi berkata, "aku akan menjadi programmer yang sukses"';
+console.log(kataKata);
+console.log(pernyataan);
+
+// Masalah dan solusi untuk tanda petik bergantian
+console.log("\n Terdapat masalah ketika tanda petik bergantian");
+//console.log('Gilang berkata, "let's do it"');
+// kode di atas akan error karena petik paling luar adalah petik 1
+// dan di tengah kata terdapat petik 1 lagi, maka petik di tengah dianggap kalimat telah selesai
+// sedangkan setelah petik 1 di tengah masih ada kata lagi, berikut adalah solusinya
+console.log("Solusinya: \n");
+
+// Solusi 1
+console.log("1. Gunakan bentuk petik yang berbeda dengan petik paling luar");
+console.log("Gilang berkata, 'Let's do it'");
+
+// Solusi 2
+console.log("2. Gunakan tanda backslise sebelum petik di tengah ditambahkan");
+console.log('Gilang berkata, "Let\'s do it"');
 
 
 
