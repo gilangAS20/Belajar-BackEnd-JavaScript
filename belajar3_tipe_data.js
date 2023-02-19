@@ -141,6 +141,63 @@ console.log("Gilang berkata, 'Let's do it'");
 console.log("2. Gunakan tanda backslise sebelum petik di tengah ditambahkan");
 console.log('Gilang berkata, "Let\'s do it"');
 
+// String concatenation
+console.log("\n Contoh String concatenation: ");
+
+const namaAwal = "Gilang";
+const namaTengah = "Agung";
+const namaAkhir = "Saputra";
+const namaLengkap = namaAwal + namaTengah + namaAkhir;
+console.log("namaAwal = 'Gilang', namaTengah = 'Agung', namaAkhir = 'Saputra'");
+console.log("Hasil String concatenation: ");
+console.log(namaLengkap);
+
+// String Interpolation
+// String Interpolation yaitu memasukkan variabel ke template string
+console.log("\n Contoh String Interpolation: ");
+const namaDepan = "Gilang";
+console.log(`variabel namaDepan = ${namaDepan}, hasilnya adalah:`);
+console.log(`halo gais nama aku ${namaDepan}`);
+// Catatan, untuk melakukan String Interpolation harus pakai tanda (``), bukan ('')
+
+console.log("===========================================================");
+
+console.log("\n\n========================Tipe Data Boolean===================================");
+console.log("Boolean tipe data yang cuman punya 2 nilai yaitu 'true' dan 'false'");
+console.log("Contoh: ");
+
+let nilaiSatu = true;
+let nilaiDua = false;
+console.log(`nilaiSatu = ${nilaiSatu}, nilaiDua = ${nilaiDua}`);
+
+console.log(typeof(nilaiSatu));
+console.log(typeof(nilaiDua));
+
+// Boolean dapat digunakan untuk melakukan cek kondisi / perbandingan
+console.log("\n Contoh perbandingan dengan Boolean: ");
+let angkaPertama = 20;
+let angkaKedua = 10;
+console.log(`variabel 'angkaPertama = 20', 'angkaKedua = 10'`);
+console.log("angkaPertama > angkaKedua:");
+let perbandinganSatu = angkaPertama > angkaKedua;
+console.log(perbandinganSatu);
+
+console.log("angkaPertama < angkaKedua:");
+let perbandinganDua = angkaPertama < angkaKedua;
+console.log(perbandinganDua);
+
+console.log("===========================================================");
+
+console.log("\n\n========================Tipe Data Null===================================");
+// Null adalah tipe data yang mirip dengan undefined, tapi null ini memang diisi ke variabel sebagai null
+// sedangkan undefined itu variabel tapi tidak punya isi
+console.log("Contoh penggunaan Null: ");
+let nilaiAwal = null;
+console.log(nilaiAwal);
+
+console.log("===========================================================");
+
+console.log("\n\n========================Tipe Data Symbol===================================");
 
 
 
