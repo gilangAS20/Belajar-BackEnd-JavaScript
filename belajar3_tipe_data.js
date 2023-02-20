@@ -198,6 +198,18 @@ console.log(nilaiAwal);
 console.log("===========================================================");
 
 console.log("\n\n========================Tipe Data Symbol===================================");
+// Tipe data Symbol berfungsi sebagai identifier yang unik, meskipun isi dari 2 variabel sama,
+// jika dicek hasilnya akan 'false'
+console.log("Contoh penggunaan Symbol: ");
+
+const idSatu = Symbol("slebew");
+const idDua = Symbol("slebew");
+
+console.log(`variabel 'idSatu' adalah Symbol("slebew"), 'idDua' = Symbol("slebew")`);
+console.log("Cek apakah hasilnya sama:");
+console.log(idSatu == idDua);
+
+console.log("===========================================================");
 
 
 
