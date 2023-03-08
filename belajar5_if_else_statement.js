@@ -2,6 +2,8 @@
 console.log("================If Else Statement================ \n\n");
 // If-Else Statement berfungsi untuk mengambil sebuah keputusan berdasarkan kondisi tertentu
 
+
+
 // Contoh 1
 console.log("Contoh 1 : \n");
 
@@ -16,6 +18,8 @@ else {
     console.log("Tidak perlu bawa payung, tapi untuk jaga-jaga oke saja")
 }
 console.log("Hati-hati di jalan ya \n\n");
+
+
 
 // Contoh 2
 console.log("Contoh 2 : \n");
@@ -34,6 +38,8 @@ else{
 
 console.log("\n");
 
+
+
 // Contoh 3
 console.log("Contoh 3 : \n");
 
@@ -51,3 +57,17 @@ if(language === "English") {
 }
 
 console.log(greeting);
+console.log("\n");
+
+
+
+// Contoh 4 (Truthy & Falsy)
+console.log("Contoh 4 (Truthly & Falsy) : \n");
+let nama = "Gilang";
+
+if (nama) {
+    console.log(`Halo, nama kamu adalah ${nama}`);
+}
+else {
+    console.log("Wah nama kamu belum diisi nih!")
+}
